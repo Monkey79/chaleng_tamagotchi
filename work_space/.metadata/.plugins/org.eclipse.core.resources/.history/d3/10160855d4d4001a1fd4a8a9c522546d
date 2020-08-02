@@ -1,0 +1,10 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Sad extends State {
+
+	
+
+}

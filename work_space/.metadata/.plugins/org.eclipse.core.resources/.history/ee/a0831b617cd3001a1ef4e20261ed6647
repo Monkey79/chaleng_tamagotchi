@@ -1,0 +1,19 @@
+package ar.com.main.states;
+
+import ar.com.main.entities.IPet;
+
+public abstract class State {
+	private IPet pet;
+	
+	public abstract void execute();
+	
+	public State(IPet pet) {
+		this.pet = pet;
+	}
+	
+	public void getPet() {
+		return pet;
+	}
+	
+
+}

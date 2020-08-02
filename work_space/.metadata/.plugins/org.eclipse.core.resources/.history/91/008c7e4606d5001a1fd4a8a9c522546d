@@ -1,0 +1,17 @@
+package ar.com.main.test;
+
+import org.junit.Test;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.entities.impl.Tamagotchi;
+import ar.com.main.states.impl.Sad;
+
+public class TamagotchiHugTest {
+	
+	@Test
+	public void getHugSadPet() {
+		IPet tamag = new Tamagotchi();
+		tamag.setState(new Sad());
+	}		
+
+}

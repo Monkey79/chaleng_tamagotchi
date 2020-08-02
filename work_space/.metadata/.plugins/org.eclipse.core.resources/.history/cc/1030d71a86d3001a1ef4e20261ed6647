@@ -1,0 +1,12 @@
+package ar.com.main.entities;
+
+import ar.com.main.states.State;
+
+public interface IPet {
+	
+	public void setState(State state);
+	public void eat();
+	public void drink();
+	public void hug();
+
+}

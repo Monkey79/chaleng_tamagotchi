@@ -1,0 +1,15 @@
+package ar.com.main.test;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class TamagotchiTest {
+	
+	@Test
+	public void testTrue() {
+		System.out.println("---test true---");
+		assertTrue(true);
+	}
+
+}

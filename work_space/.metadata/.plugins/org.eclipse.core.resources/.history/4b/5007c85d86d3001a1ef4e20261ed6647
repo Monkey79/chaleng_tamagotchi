@@ -1,0 +1,33 @@
+package ar.com.main.entities.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Tamagotchi implements IPet {
+	private State state;
+
+	@Override
+	public void setState(State state) {
+		this.state = state;
+
+	}
+
+	@Override
+	public void eat() {
+		
+
+	}
+
+	@Override
+	public void drink() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void hug() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

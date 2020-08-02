@@ -1,0 +1,13 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.states.State;
+
+public class Hungry extends State {
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

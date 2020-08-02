@@ -1,0 +1,9 @@
+package ar.com.main.states;
+
+import ar.com.main.entities.IPet;
+
+public abstract class State {	
+	public abstract void handleEat(IPet pet);
+	public abstract void handleDrink(IPet pet);
+	public abstract void handleHug(IPet pet);
+}

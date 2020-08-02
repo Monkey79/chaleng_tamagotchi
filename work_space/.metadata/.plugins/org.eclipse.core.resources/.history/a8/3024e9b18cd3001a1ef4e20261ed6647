@@ -1,0 +1,9 @@
+package ar.com.main.states;
+
+import ar.com.main.entities.IPet;
+
+public abstract class State {	
+	protected IPet pet;
+	
+	public abstract void execute(IPet pet);
+}

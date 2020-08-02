@@ -1,0 +1,27 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Sad extends State {
+	public static final String SAD_EAT_MSSG = "two beep...I must vomit";
+	
+	@Override
+	public String handleEat(IPet pet) {
+		System.out.println(SAD_EAT_MSSG);
+		return SAD_EAT_MSSG;
+		
+	}
+
+	@Override
+	public void handleDrink(IPet pet) {
+		System.out.println("three beeps...the display should flicker");
+		
+	}
+
+	@Override
+	public void handleHug(IPet pet) {
+		pet.setState(new Happy());
+		
+	}
+}

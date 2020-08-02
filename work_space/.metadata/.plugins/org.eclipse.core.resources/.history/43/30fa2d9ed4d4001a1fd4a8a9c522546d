@@ -1,0 +1,31 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Hungry extends State {
+
+	@Override
+	public void execute(IPet pet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void handleEat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void handleDrink() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void handleHug() {
+		// TODO Auto-generated method stub
+		
+	}
+}

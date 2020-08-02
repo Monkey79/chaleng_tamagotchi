@@ -1,0 +1,27 @@
+package ar.com.main.test;
+
+import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.entities.impl.Tamagotchi;
+import ar.com.main.states.impl.Happy;
+import ar.com.main.states.impl.Sad;
+
+public class TamagotchiHugTest {
+	
+	@Test
+	public void getHugSadPetTest() {
+		IPet tamag = new Tamagotchi();
+		tamag.setState(new Sad());
+		tamag.hug();
+		assertThat(tamag.getState(), instanceOf(Happy.class));
+	}
+	@Test
+	public void getHugHappyPetTest() {
+		
+	}
+
+}

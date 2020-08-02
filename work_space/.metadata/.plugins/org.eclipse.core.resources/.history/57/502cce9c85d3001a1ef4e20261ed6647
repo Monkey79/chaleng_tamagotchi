@@ -1,0 +1,15 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Hungry extends State {
+
+	@Override
+	public void execute() {
+		System.out.println("i was hungry...thanks");
+		super.setState(new Happy);
+
+	}
+
+}

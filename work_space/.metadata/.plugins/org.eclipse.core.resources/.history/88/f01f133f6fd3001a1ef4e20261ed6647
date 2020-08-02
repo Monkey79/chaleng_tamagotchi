@@ -1,0 +1,6 @@
+package ar.com.main.states;
+
+public abstract class State {
+	public void execute();
+
+}

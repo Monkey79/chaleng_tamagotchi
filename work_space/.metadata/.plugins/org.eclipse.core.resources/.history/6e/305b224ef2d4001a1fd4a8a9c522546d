@@ -1,0 +1,47 @@
+package ar.com.main;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.entities.impl.Tamagotchi;
+import ar.com.main.states.impl.Happy;
+import ar.com.main.states.impl.Hungry;
+import ar.com.main.states.impl.Sad;
+import ar.com.main.states.impl.Thirsty;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		System.out.println(".........caso 1...............");
+
+		IPet tamagotchi = new Tamagotchi();
+		tamagotchi.setState(new Hungry());
+		tamagotchi.eat(); //cambia a estado Feliz
+		tamagotchi.setState(new Sad());
+		tamagotchi.eat();
+		tamagotchi.setState(new Thirsty());
+		tamagotchi.eat();
+		tamagotchi.setState(new Happy());
+		tamagotchi.hug();
+		
+		/*System.out.println("..........Sad...............");
+		IPet tamagotchi2 = new Tamagotchi();
+		tamagotchi2.setState(new Sad());
+		tamagotchi2.eat();
+		tamagotchi2.drink();
+		tamagotchi2.hug();
+		
+		System.out.println("..........Happy...............");
+		IPet tamagotchi3 = new Tamagotchi();
+		tamagotchi3.setState(new Happy());
+		tamagotchi3.eat();
+		tamagotchi3.drink();
+		tamagotchi3.hug();
+		
+		System.out.println("..........Thirsty...............");
+		IPet tamagotchi4 = new Tamagotchi();
+		tamagotchi4.setState(new Thirsty());
+		tamagotchi4.eat();
+		tamagotchi4.drink();
+		tamagotchi4.hug();*/
+	}
+
+}

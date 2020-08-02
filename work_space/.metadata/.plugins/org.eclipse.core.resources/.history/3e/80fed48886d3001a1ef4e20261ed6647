@@ -1,0 +1,13 @@
+package ar.com.main;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.entities.impl.Tamagotchi;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		IPet tamagotchi = new Tamagotchi();
+
+	}
+
+}

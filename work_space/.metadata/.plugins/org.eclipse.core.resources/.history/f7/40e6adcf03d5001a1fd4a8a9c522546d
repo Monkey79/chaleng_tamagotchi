@@ -1,0 +1,12 @@
+package ar.com.main.test;
+
+import org.junit.Test;
+
+public class TamagotchiDrinkTest {
+	
+	@Test
+	public void getDrinkThirstyPet() {
+		
+	}
+
+}

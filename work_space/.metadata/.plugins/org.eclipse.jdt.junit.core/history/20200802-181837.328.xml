@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TamagotchiDrinkTest" project="TamagotchiProj" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="ar.com.main.test.TamagotchiDrinkTest" time="0.0">
+    <testcase name="getDrinkThirstyPet" classname="ar.com.main.test.TamagotchiDrinkTest" time="0.0"/>
+    <testcase name="getDrinkHappyPet" classname="ar.com.main.test.TamagotchiDrinkTest" time="0.0"/>
+    <testcase name="getDrinkSadPet" classname="ar.com.main.test.TamagotchiDrinkTest" time="0.0"/>
+    <testcase name="getDrinkHungryPet" classname="ar.com.main.test.TamagotchiDrinkTest" time="0.0"/>
+  </testsuite>
+</testrun>

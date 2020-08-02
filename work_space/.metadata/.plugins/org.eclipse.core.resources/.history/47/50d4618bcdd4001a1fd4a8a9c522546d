@@ -1,0 +1,16 @@
+package ar.com.main.states.impl;
+
+import ar.com.main.entities.IPet;
+import ar.com.main.states.State;
+
+public class Thirsty extends State {
+
+	@Override
+	public void execute(IPet pet) {		
+		if(pet.getState() instanceof Hungry) {
+			System.out.println("i was thirsty...thanks");
+			pet.setState(new Happy());			
+		}
+	}
+
+}
